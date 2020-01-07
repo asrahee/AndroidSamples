@@ -49,4 +49,8 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    private void gitTest(){
+        // 깃허브 테스트 코드 add하기
+    }
 }
