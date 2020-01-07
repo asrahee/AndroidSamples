@@ -52,5 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void testGit(){
         // git test
+        // git test 2
     }
 }
