@@ -50,18 +50,5 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void testGit(){
-        // git test
-        // git test 2
-        // git test 3
-
-        // home2
-        // home2 2
-        // homee 3
-        // home2 4
-        // home2 5
-        // home2 6
-        // home2 7
-        // home2 8
-    }
+    // home1 1
 }
