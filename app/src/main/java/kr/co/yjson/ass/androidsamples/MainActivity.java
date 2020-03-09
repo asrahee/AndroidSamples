@@ -1,12 +1,8 @@
 package kr.co.yjson.ass.androidsamples;
 
-import android.app.ActivityManager;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,8 +12,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private final static String TAG = MainActivity.class.getSimpleName();
@@ -123,4 +117,5 @@ public class MainActivity extends AppCompatActivity {
 
     // 0309 테스트 3
     // 0309 테스트 5
+    // 0309 테스트 6 home11 변경점 머지
 }
