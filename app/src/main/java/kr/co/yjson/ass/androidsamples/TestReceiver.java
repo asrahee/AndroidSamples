@@ -11,5 +11,8 @@ public class TestReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.d(TAG, "onReceive action : " + intent.getAction());
+
+        // home11 test 1
+
     }
 }
