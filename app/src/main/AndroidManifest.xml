@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="kr.co.yjson.ass.androidsamples">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +21,40 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LinkActivity"
+            android:clearTaskOnLaunch="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="link"
+                    android:scheme="android_sample"/>
+            </intent-filter>
+        </activity>
+
+
+        <receiver android:name=".TestReceiver"
+            android:enabled="true">
+
+            <intent-filter>
+                <action android:name="android.intent.ACTION_USB_DEVICE_ATTACHED"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.ACTION_USB_DEVICE_DETACHED"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="kr.co.yjson.ass.androidsamples.test1"/>
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
