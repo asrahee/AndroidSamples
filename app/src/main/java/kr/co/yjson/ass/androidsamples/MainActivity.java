@@ -100,23 +100,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // home1 1 1.20.01
-    // home1 1 1.20.02
-    // home1 1 1.20.03
-    // home11 1
-    // home11 2
-    // home11 3
-    // home11 4
-    // home11 5
-
-    // home11 4 master
-    // home11 5 master
-
-    // home11 6 master
-
-    // home11 6 master test
-
-
     public BroadcastReceiver getTestReceiver() {
         if(api26_over_broadcast_test_receiver == null) {
             // api 26(OS 8.0)이상 버전에서의 broadcast receiver 테스트
