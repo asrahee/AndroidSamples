@@ -12,9 +12,6 @@ public class TestReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Log.d(TAG, "onReceive action : " + intent.getAction());
 
-        // 0325 master 1
-        // 0325 master 2
-        // 0325 home 1
-        // 0325 home 2
+        // 0326 home 1
     }
 }
