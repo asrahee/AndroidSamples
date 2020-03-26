@@ -17,5 +17,7 @@ public class TestReceiver extends BroadcastReceiver {
         // 0326 master 1
 
 
+        // 0326 master 2
+
     }
 }
