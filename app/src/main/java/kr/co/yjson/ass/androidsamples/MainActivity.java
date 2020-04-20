@@ -13,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import kr.co.yjson.ass.androidsamples.recyclerview.RecyclerViewSampleActivity;
+
 public class MainActivity extends AppCompatActivity {
     private final static String TAG = MainActivity.class.getSimpleName();
 
@@ -38,7 +40,23 @@ public class MainActivity extends AppCompatActivity {
 
 //        LocalBroadCaster.registReceiver(this, getTestReceiver());
 
+        findViewById(R.id.btn_testRecyclerView).setOnClickListener(mOnClickListener);
+
     }
+
+    private View.OnClickListener mOnClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch(v.getId()){
+                // 리사이클러 뷰 특정 아이템 위치 잡기 테스트 액티비티 실행
+                case R.id.btn_testRecyclerView :
+                    startActivity(new Intent(MainActivity.this, RecyclerViewSampleActivity.class));
+                    break;
+
+                default: break;
+            }
+        }
+    };
 
     @Override
     public void onResume(){

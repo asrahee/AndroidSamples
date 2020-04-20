@@ -9,7 +9,8 @@
     tools:context="kr.co.yjson.ass.androidsamples.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_testRecyclerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
