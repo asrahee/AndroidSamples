@@ -126,29 +126,4 @@ public class MainActivity extends AppCompatActivity {
         return api26_over_broadcast_test_receiver;
     }
 
-
-//    public IntentFilter getTestIntentFilter(){
-//        IntentFilter filter = new IntentFilter();
-//        filter.addAction(ACTION_TEST_1);
-//        return filter;
-//    }
-
-
-    // 0921_test 1
-    // 0921_test 2
-
-    // 0921 master 1
-    // 0921 master 2
-
-    // 0921_test 3
-    // 0921_test 4
-
-    // 0921_test 5
-
-    // 0921 master 3
-
-    // 0921_test 5
-    // 0921_test 5
-
-    // 0921 master 3
 }
