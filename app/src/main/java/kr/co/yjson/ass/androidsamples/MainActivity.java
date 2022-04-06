@@ -126,14 +126,6 @@ public class MainActivity extends AppCompatActivity {
         return api26_over_broadcast_test_receiver;
     }
 
-    // 0921 test 6
-    // 0921 test 7
-
-    // 0921 master 1
-
-    // 0921 test merge test 1
-
-    // 0921 master merge test 1
-    // 1015 master 1
+    // m1
 
 }
